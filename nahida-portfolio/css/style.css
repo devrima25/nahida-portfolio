@@ -23,6 +23,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0 200px;
 }
 
 nav ul {
@@ -46,3 +47,23 @@ nav ul li a {
   font-weight: 800;
   line-height: normal;
 }
+
+/* -----header related styles------ */
+
+.header-color{
+    background-color: #FFF8F3;
+
+}
+
+.header-banner{
+    padding:30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.header-banner img {
+  width: 584px;
+height: 676px;
+/* flex-shrink: 0; */
+}
+
