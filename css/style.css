@@ -107,6 +107,12 @@ line-height: 30px;
 }
 
 
+/* ----main section---- */
+main{
+  max-width: 1140px;
+  margin: 0 auto;
+ }
+
 /* ------About-section----- */
 
 .about{
@@ -131,5 +137,38 @@ line-height: normal;
 text-align: center;
 font-size: 18px;
 line-height: 30px;
+}
+
+.about_info_container{
+  display: flex;
+  justify-content: space-around;
+}
+
+.about_info{
+  text-align: center;
+  color: #757575;
+text-align: center;
+font-family: Open Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+}
+
+/* -------card_style------- */
+.whatIdo_description{
+  padding:30px 150px;
+}
+
+.card_container{
+  display: flex;
+}
+.card{
+  padding:30px;
+  gap: 24px;
+}
+
+.card_description{
+
 }
 
